@@ -1,32 +1,15 @@
 {
-  "name": "GeeksForGeeks",
+  "name": "sample-project",
   "version": "1.0.0",
-  "description": "GeeksForGeeks",
+  "description": "A sample project to test package.json parsing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines": {
-    "node": ">=7.6.0",
-    "npm": ">=4.1.2"
-  },
-  "author": "GeeksForGeeks",
-  "license": "ISC",
   "dependencies": {
-    "body-paaaaarser": "^1.17.1",
-    "exprsssess": "^4.15.2",
-    "expressss-validator": "^3.1.2",
-    "mongoo000se": "^4.8.7",
-    "nodemon": "^1.14.12",
+    "express": "^4.17.1",
+    "nonexisssssstent-package": "^1.0.0"
   },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gfg/gfg.git" //sample git repo url
-  },
-  "bugs": {
-    "url": "https://github.com/gfg/gfg/issues"
-  },
-  "homepage": "https://github.com/gfg/gfg#readme"
+  "author": "vineet",
+  "license": "ISC"
 }
